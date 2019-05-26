@@ -9,7 +9,7 @@ This repo alone only have access to the default discovery, which is a system pro
 
 # Action
 
-> docker run --rm -p 2552:2552 meduzz/greencm:0.1 {a public hostname}
+> docker run --rm -p port:2552 meduzz/greencm:190526 {a public hostname[:port]}
 
 ```a public hostname``` is used to tell akka where to expect traffic, it's pretty anal about that. When I test locally I use my computers "public" ip. 
 
